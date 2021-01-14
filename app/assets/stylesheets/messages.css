@@ -40,21 +40,46 @@
   height: calc(100% - 100px);
   padding: 0 20px;
 }
+.menu-name {
+  padding: 50px 0 40px;
+}
+.menu-name a {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+}
 .center {
-  border: 1px solid #777777;
+  border-right: 1px solid #777777;
 }
 .center-top {
   background-color: #EEEEEE;
-  height: 300px;
+  height: 250px;
 }
 .login {
   background-color: #EEEEEE;
   height: 40px;
   border-bottom: 1px solid #777777;
+  padding: 10px 20px 0 20px;
 }
 .login-user {
   background-color: #FFFFFF;
   height: 260px;
+  padding: 0 20px;
+}
+.user-name {
+  padding: 40px 0 50px;
+}
+.user-name a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.room-create a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ff6347;
+  border: 1px solid #ff6347;
+  padding: 20px;
 }
 .center-bottom {
   background-color: #FFFFFF;
@@ -68,7 +93,7 @@
 }
 .member-list {
   background-color: #FFFFFF;
-  height: 450px;
+  height: 500px;
 }
 .chat-header {
   background-color: #FFFFFF;
