@@ -59,7 +59,7 @@
   background-color: #EEEEEE;
   height: 40px;
   border-bottom: 1px solid #777777;
-  padding: 10px 20px 0 20px;
+  padding: 8px 20px 0 20px;
 }
 .login-user {
   background-color: #FFFFFF;
@@ -90,10 +90,16 @@
   height: 40px;
   border-top: 1px solid #777777;
   border-bottom: 1px solid #777777;
+  padding: 8px 20px 0 20px;
 }
 .member-list {
   background-color: #FFFFFF;
   height: 500px;
+  padding: 0 20px;
+  overflow: scroll;
+}
+.user-names {
+  padding: 10px 0;
 }
 .chat-header {
   background-color: #FFFFFF;
