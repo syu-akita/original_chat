@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .wrapper {
   display: flex;
 }
@@ -20,6 +23,17 @@
   background-color: #444444;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+}
+.bird-icon {
+  margin-top: 25px;
+}
+.menu-notation {
+  font-size: 20px;
+  color: #FFFFFF;
+  width: 200%;
+  margin-top: 40px;
+  margin-right: 100px;
 }
 .menu-bar {
   background-color: #333333;
