@@ -116,6 +116,28 @@
   height: calc(100% - 140px);
   padding: 45px 40px 40px;
 }
+.message {
+  margin: 10px 0 15px;
+}
+.upper-message {
+  display: flex;
+}
+.messenger {
+  font-size: 14px;
+  color: #555555;
+}
+.send-time {
+  font-size: 12px;
+  color: #AAAAAA;
+  margin-left: 4px;
+}
+.lower-message {
+  margin-top: 5px;
+}
+.message-content {
+  font-size: 15px;
+  color: #333333;
+}
 .form {
   border-top: 1px solid#777777;
   height: 90px;
