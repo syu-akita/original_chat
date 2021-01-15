@@ -116,6 +116,7 @@
   background-color: #ffffee;
   height: calc(100% - 170px);
   padding: 45px 40px 40px;
+  overflow: scroll;
 }
 .message {
   margin: 10px 0 15px;
