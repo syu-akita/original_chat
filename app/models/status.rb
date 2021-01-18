@@ -5,5 +5,5 @@ class Status < ActiveHash::Base
     { id: 3, number: '生徒' }
   ]
   include ActiveHash::Associations
-  
+  has_many :users
 end
