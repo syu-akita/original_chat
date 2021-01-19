@@ -1,4 +1,4 @@
-class School < ActiveHash::Base
+class Group < ActiveHash::Base
   self.data = [
     { id: 1, number: '---' },
     { id: 2, number: '1-1' },

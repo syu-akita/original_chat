@@ -19,7 +19,7 @@
           <div class="form-text-wrap">
             <label class="form-text">クラス</label>
           </div>
-          <%= f.collection_select(:group_id, School.all, :id, :number, {}, {class:"select-box", id:"group-category"}) %>
+          <%= f.collection_select(:group_id, Group.all, :id, :number, {}, {class:"select-box", id:"group-category"}) %>
         </div>
         <div class="form-group">
           <div class="form-text-wrap">
