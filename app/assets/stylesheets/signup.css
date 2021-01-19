@@ -1,8 +1,16 @@
+.register-header {
+  height: 80px;
+  background-color: #EEFFFFFF;
+}
+.register-header h2 {
+  font-size: 34px;
+  padding: 15px 20px;
+}
 .form-wrap {
   display: flex;
 }
 .register-wrap {
-  height: 100vh;
+  height: calc(100vh - 80px);
   width: 60%;
   background-color:#E6FFE9;
 }
@@ -43,7 +51,7 @@
 }
 .register-btn {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .register-blue-btn {
   background-color: #4bf9b9;
