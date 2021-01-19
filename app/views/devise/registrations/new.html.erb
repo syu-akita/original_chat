@@ -19,7 +19,7 @@
     </div>
     <div class="form-group">
       <div class="form-text-wrap">
-        <label class="form-text">生徒との関係</label>
+        <label class="form-text">続柄</label>
       </div>
       <%= f.collection_select(:status_id, Status.all, :id, :number, {}, {class:"select-box", id:"status-category"}) %>
     </div>
@@ -44,7 +44,7 @@
 
     <div class="form-btn">
       <h2 class="form-btn-text">
-        <span>利用企画</span>、<span>プライバシーポリシー</span>をご確認のうえ、<br>「新規登録する」を押してください
+        <a href="#">利用企画</a>、<a href="#">プライバシーポリシー</a>をご確認のうえ、<br>「新規登録する」を押してください
       </h2>
     </div>
     <div class="register-btn">
@@ -52,4 +52,6 @@
     </div>
   </div>
   <% end %>
+  <div class="application-text">
+  </div>
 </div>
