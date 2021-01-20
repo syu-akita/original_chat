@@ -18,7 +18,7 @@ class Group < ActiveHash::Base
     { id: 16, number: '5-3' },
     { id: 17, number: '6-1' },
     { id: 18, number: '6-2' },
-    { id: 19, number: '6-3' },
+    { id: 19, number: '6-3' }
   ]
 
   include ActiveHash::Associations
