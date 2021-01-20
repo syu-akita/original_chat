@@ -2,10 +2,12 @@
   <div class="side-bar">
     <%= render "menu" %>
   </div>
-  <div class="center-bar">
-    <%= render "center" %>
-  </div>
-  <div class="chat">
-    <%= render "chat" %>
-  </div>
+  <% if user_signed_in? %>
+    <div class="center-bar">
+      <%= render "center" %>
+    </div>
+    <div class="chat">
+      <%= render "chat" %>
+    </div>
+  <% end %>
 </div>
