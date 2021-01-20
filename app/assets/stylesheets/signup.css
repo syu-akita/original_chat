@@ -1,0 +1,80 @@
+.overrall {
+  height: 100%;
+  width: 100%;
+  background-color: #FFCC99;
+}
+.new-wrapper {
+  height: 85%;
+  width: 90%;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+}
+.register-header {
+  height: 80px;
+  background-color: #EEFFFF;
+  border-bottom: 1px dotted black;
+}
+.register-header h2 {
+  font-size: 34px;
+  padding: 15px 20px;
+}
+.form-wrap {
+  display: flex;
+}
+.register-wrap {
+  height: calc(100vh - 80px);
+  width: 60%;
+  background-color:#FFFFFF;
+}
+.form-group {
+  display: flex;
+  padding: 0 20px;
+}
+.form-text-wrap {
+  height: 50px;
+  width: 300px;
+  background-color: #EEEEEE;
+  margin: 20px 0;
+  border-radius: 30px;
+  position: relative;
+}
+.form-text {
+  position: absolute;
+  padding: 15px 60px;
+}
+.input-form {
+  height: 40px;
+  margin: 25px 20px;
+  width: 550px;
+  border: 1px solid #EEEEEE;
+  padding-left: 10px;
+  box-shadow: 1px 1px 2px #DDDDDD;
+  border-radius: 2px;
+}
+.select-box {
+  height: 40px;
+  width: 100px;
+  margin: 25px 20px;
+  box-shadow: 1px 1px 1px #DDDDDD;
+  border-radius: 2px;
+  border: 1px solid #EEEEEE;
+}
+.form-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+.form-btn-text a {
+  text-decoration: none;
+}
+.register-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+.register-blue-btn {
+  background-color: #99FFFF;
+  text-shadow: 1px 0 3px black;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 15px;
+  color: #FFFFFF;
+}

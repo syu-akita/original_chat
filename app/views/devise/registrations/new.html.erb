@@ -1,0 +1,64 @@
+<div class="overrall">
+  <div class="new-wrapper">
+    <div class="register-header">
+      <h2>新規登録画面</h2>
+    </div>
+
+    <%= form_with model: @user, url: user_registration_path, class: 'registration-main', local: true do |f| %>
+    <div class="form-wrap">
+      <div class="register-wrap">
+        <%= render "devise/shared/error_messages", model: f.object %>
+        
+        <div class="form-group">
+          <div class="form-text-wrap">
+            <label class="form-text">名前</label>
+          </div>
+          <%= f.text_area :name, class:"input-form", id:"name",maxlength:"20" %>
+        </div>
+        <div class="form-group">
+          <div class="form-text-wrap">
+            <label class="form-text">クラス</label>
+          </div>
+          <%= f.collection_select(:group_id, Group.all, :id, :number, {}, {class:"select-box", id:"group-category"}) %>
+        </div>
+        <div class="form-group">
+          <div class="form-text-wrap">
+            <label class="form-text">続柄</label>
+          </div>
+          <%= f.collection_select(:status_id, Status.all, :id, :number, {}, {class:"select-box", id:"status-category"}) %>
+        </div>
+        <div class="form-group">
+          <div class="form-text-wrap">
+            <label class="form-text">メールアドレス</label>
+          </div>
+          <%= f.email_field :email, class:"input-form", id:"email",autoforcus: true %>
+        </div>
+        <div class="form-group">
+          <div class="form-text-wrap">
+            <label class="form-text">パスワード</label>
+          </div>
+          <%= f.password_field :password, class:"input-form", id:"password", placeholder:"6文字以上の半角英数字" %>
+        </div>
+        <div class="form-group">
+          <div class="form-text-wrap">
+            <label class="form-text">パスワード(確認)</label>
+          </div>
+          <%= f.password_field :password_confirmation, class:"input-form", id:"password-confirmation", placeholder:"同じパスワードを入力して下さい" %>
+        </div>
+
+        <div class="form-btn">
+          <h2 class="form-btn-text">
+            <a href="#">利用企画</a>、<a href="#">プライバシーポリシー</a>をご確認のうえ、<br>「新規登録する」を押してください
+          </h2>
+        </div>
+        <div class="register-btn">
+          <%= f.submit "新規登録する", class:"register-blue-btn" %>
+        </div>
+      </div>
+      <% end %>
+      <div class="application-text">
+        <%= render "devise/shared/application-text" %>
+      </div>
+    </div>
+  </div>
+</div>

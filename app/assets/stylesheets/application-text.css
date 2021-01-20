@@ -1,0 +1,18 @@
+.application-text h3 {
+  font-size: 16px;
+  padding: 20px;
+}
+.application-text span {
+  font-size: 18px;
+  color: #FFCC33;
+}
+.application-middle {
+  font-size: 14px;
+  padding: 10px 20px 0;
+}
+.last-sentence {
+  font-size: 18px;
+}
+.application-footer {
+  padding: 30px 70px;
+}
